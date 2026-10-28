@@ -266,5 +266,16 @@ try:
     
     plt.show()
 
+    contagens, limites = np.histogram(array_cvli, bins=100)
+
+    print(f'\nFixas de CVLI do Histograma')
+    for i in range(len(contagens)):
+        if contagens[i] > 0:
+            print(
+                f'Faixa {i+1}: '
+                f'{limites [i]:.0f} até {limites[i+1]:.0f} CVLIs:  '
+                f'=> {contagens[i]} batalhões'
+            )
+
 except Exception as e:
     print(f'Erro ao gerar o painel - {e}')
