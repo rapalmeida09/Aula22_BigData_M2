@@ -186,14 +186,13 @@ que é o limite comum para considerar um Tendencia de Alta disperção em um con
 -   O desvio padrão de {desvio_padrao:.2f} é quase do tamanho da própria média {media_cvli:.2f}.
 
 -   A média de {media_cvli:.2f} fica {distancia_media_mediana:.2f}% acima da mediana que é de {mediana_cvli}, 
-o que indica poucos batalhões com valores altos puxam a média para cima.
+o que indica assimetria à direita: poucos batalhões com valores altos puxam a média para cima.
 
 -   A amplitude é enorme: de {minimo} a {maximo}, ou seja, {amplitude} ocorrências de diferença.
 
 -   Os quartis mostram a dispersão: 25% dos batalhões têm até {q1} ocorrências, e os 25% maiores tem de {q3} até {maximo}.
 
--   A média está acima da mediana indicando assimetria à direita: poucos batalhões com valores altos
-puxam a média para cima.
+-   
 
 -   Há batalhões com ocorrências muito superiores aos demais pelo critério do IQR, com limite superior há {limite_superior}:
 
