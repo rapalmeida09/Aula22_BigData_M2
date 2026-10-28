@@ -192,7 +192,8 @@ o que indica poucos batalhões com valores altos puxam a média para cima.
 
 -   Os quartis mostram a dispersão: 25% dos batalhões têm até {q1} ocorrências, e os 25% maiores tem de {q3} até {maximo}.
 
--   A média não representa bem o grupo, então a mediana é a medida de referência mais adequada aqui.
+-   A média está acima da mediana indicando assimetria à direita: poucos batalhões com valores altos
+puxam a média para cima.
 
 -   Há batalhões com ocorrências muito superiores aos demais pelo critério do IQR, com limite superior há {limite_superior}:
 
